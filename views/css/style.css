@@ -1,0 +1,5 @@
+.formulario {
+    display: flex;
+    margin-top: 15vh;
+    justify-content: center;
+}
