@@ -54,7 +54,7 @@ include './controller/acoes.php';
  
   echo match($url[0]){
       '/' => login(),
-      '/home' => login(),
+      '/home' => home(),
       '/cadastro' => cadastrar(),
       '/listar' => listar(),
       '/editar' => editar(),

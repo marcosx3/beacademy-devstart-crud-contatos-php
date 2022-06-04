@@ -3,3 +3,24 @@
     margin-top: 15vh;
     justify-content: center;
 }
+
+.cadastro-contato-title {
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+}
+.cadastro-contato {
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+   
+}
+
+.listar-contato-title {
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+}
+.listar-contato {
+    margin-top: 5vh;
+}
