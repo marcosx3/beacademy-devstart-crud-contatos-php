@@ -4,7 +4,7 @@
     justify-content: center;
 }
 
-.cadastro-contato-title {
+.cadastro-contato-title  {
     display: flex;
     margin-top: 5vh;
     justify-content: center;
@@ -23,4 +23,9 @@
 }
 .listar-contato {
     margin-top: 5vh;
+}
+.editar-contato-title {
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
 }

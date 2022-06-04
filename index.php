@@ -32,11 +32,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/cadastro">Cadastrar</a>
         </li>
+        
         <li class="nav-item">
-          <a class="nav-link" href="/editar">Editar</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/listar">Visualizar</a>
+          <a class="nav-link" href="/listar">Listar Contato</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/relatorio">Relatorio</a>
