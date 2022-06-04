@@ -20,7 +20,8 @@
     };
     
     function editar(){
-        $dados = editarContato();
+            $dados = editarContato();
+       
         include 'views/editar.php';
     };
 

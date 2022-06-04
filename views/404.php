@@ -1,4 +1,4 @@
-<div class="container">
-        <h1>Pagina não encontrada</h1>
-        <img src="./img/erro404.svg"  width="40%">
+<div class="container-fluid d-flex justify-content-center">
+       
+       <img src="../views/img/erro404.jpg" alt="Erro 404 " >
 </div>
