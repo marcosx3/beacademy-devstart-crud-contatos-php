@@ -20,7 +20,12 @@
     };
     
     function editar(){
+        $dados = editarContato();
         include 'views/editar.php';
+    };
+
+    function excluir(){
+        excluirContato();
     };
     
     function listar(){

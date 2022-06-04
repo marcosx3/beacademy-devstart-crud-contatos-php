@@ -3,6 +3,7 @@
     <table class="table table-striped">
         <thead>
             <tr>
+                <td>ID</td>
                 <td>Nome</td>
                 <td>Email</td>
                 <td>Telefone</td>
@@ -15,6 +16,7 @@
                     foreach($contatos as $posicao => $cadaContato) {
                         $partes = explode(';',$cadaContato);
                         echo '<tr>';
+                            echo "<td>{$posicao}</td>";
                             echo "<td>{$partes[0]}</td>";
                             echo "<td>{$partes[1]}</td>";
                             echo "<td>{$partes[2]}</td>";

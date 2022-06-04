@@ -58,6 +58,7 @@ include './controller/acoes.php';
       '/cadastro' => cadastrar(),
       '/listar' => listar(),
       '/editar' => editar(),
+      '/excluir' => excluir(),
       '/relatorio' => relatorio(),
       default => erro404() 
   };
