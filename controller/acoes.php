@@ -1,5 +1,6 @@
 <?php 
-    
+    include './model/contato.php';
+
     function login(){
         include 'views/login.php';
     };
@@ -9,6 +10,12 @@
     };
 
     function cadastrar(){
+        if($_POST){
+            $nome = $_POST['nome'];
+            $email = $_POST['email'];
+            $telefone = $_POST['telefone'];
+            cadastrarContato($nome,$email,$telefone);
+        }
         include 'views/cadastro.php';
     };
     
@@ -17,6 +24,7 @@
     };
     
     function listar(){
+        $contatos = listarContato();
         include 'views/listar.php';
     };
     
